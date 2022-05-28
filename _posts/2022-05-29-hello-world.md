@@ -1,11 +1,10 @@
 ---
 layout: post
-title: >
-    Hello World
+title: Hello World
 tags: [Daily]
 ---
 
-# Hello World
+# First Post
 
 Powered by Jekyll with Type on Strap
 
