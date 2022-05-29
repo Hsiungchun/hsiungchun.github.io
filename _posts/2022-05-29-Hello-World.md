@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Hello World"
+title: "Hello Jekyll"
 tags: [Daily]
 ---
 
-# First Post
+# Hello World
 
-Powered by Jekyll with Type on Strap
+Here's my first post in Bennu's blog. Powered by Jekyll with Type on Strap.
 

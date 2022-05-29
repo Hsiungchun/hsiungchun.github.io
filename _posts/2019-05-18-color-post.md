@@ -5,6 +5,7 @@ tags: [Test, Color]
 color: brown
 author: sylhare
 excerpt_separator: <!--more-->
+hide: true
 ---
 
 # What a colorful post!
