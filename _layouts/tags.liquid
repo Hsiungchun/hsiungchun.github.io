@@ -13,6 +13,13 @@ layout: page
     {% endif %}
     {% endfor %}
 
+    <!-- cycles through wechat collection to get tags -->
+    {% assign wechat = site.wechat | map: 'tags' | join: ',' | split: ',' | uniq %}
+    {% for tag in wechat %}
+    {% assign wechat_tags = tag | join: '|' | append: '|' %}
+    {% assign rawtags = rawtags | append: wechat_tags %}
+    {% endfor %}
+
     <!-- cycles through portfolio collection to get tags -->
     {% assign portfolio = site.portfolio | map: 'tags' | join: ',' | split: ',' | uniq %}
     {% for tag in portfolio %}
@@ -66,6 +73,20 @@ layout: page
                 </a>
 
                 {% include blog/post_info.liquid date=post.date %}
+            </h5>
+            {% endif %}
+            {% endfor %}
+
+            <!-- Wechat -->
+            {% for article in site.wechat %}
+            {% if article.tags contains tag %}
+            <h5 class="tag-title">
+                <a href="{{ article.url | relative_url }}">
+                    <i class="far fa-file" aria-hidden="true"></i>
+                    {{ article.title }}
+                </a>
+
+                {% include blog/post_info.liquid date=article.date %}
             </h5>
             {% endif %}
             {% endfor %}

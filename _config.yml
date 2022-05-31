@@ -47,6 +47,9 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:name
+  wechat:
+    output: true
+    permalink: /:collection/:name
 
 # BUILD SETTINGS
 sass:
