@@ -13,7 +13,7 @@ header_text: A bird cannot fly high without thick feather
 header_feature_image: assets/img/header/triangular.jpeg
 header_feature_image_responsive: true
 footer_text: >
-  <div>© 2019-2022 Bennu All Rights Reserved</div>
+  <div>© 2015-2022 Bennu All Rights Reserved</div>
   <div>Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a></div>
 
 # Blog

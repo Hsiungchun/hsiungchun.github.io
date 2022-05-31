@@ -7,7 +7,7 @@ feature-img: "assets/img/pexels/travel.jpeg"
 
 ## About Me
 > Name: Ben CHAN  
-> Email: owner@bennu.blog  
+> Email: [owner@bennu.blog](mailto:owner@bennu.blog)  
 > GitHub: [https://github.com/Hsiungchun/](https://github.com/Hsiungchun/)
 
 ## A Brief History of Bennu' Blog
